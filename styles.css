@@ -1,0 +1,23 @@
+body {
+    font-family:sans-serif;
+}
+.knoppen {
+    overflow: hidden;
+}
+.knoppen {
+    list-style-type: orange;
+    float:left
+}
+
+.knoppen li.actief {
+    background-color: orange;
+}
+.paneel {
+    /*display: none;*/
+}
+.paneel.actief {
+    display:block !important;
+}
+.paneel img {
+    maxwidth: 100%;
+}
